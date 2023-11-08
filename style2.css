@@ -1,0 +1,314 @@
+* {
+    margin:0;
+    border:border-box;
+    font-family:arial;
+
+}
+.navbar {
+    height:70px;
+    background-color:#0f1111;
+    color:white;
+    display:flex;
+    overflow: hidden;
+}
+.nav-logo  {
+    height:100px;
+    width:150px;
+}
+.location{
+    margin-bottom:0.5rem;
+}
+.logo {
+    background-image:url("amazon/amazon_logo.png");
+    background-size: cover;
+    height: 70px;
+    width: 100%;
+}
+
+.border:hover{
+    border:1.5px solid white;
+}
+.address{
+    color:white;
+    margin-top:2rem;
+    margin-right:2rem;
+    width:80px;
+}
+.deliver{
+    opacity:0.7;
+}
+.india{
+    font-weight:700;
+}
+.all{
+    background-color:rgb(172,172,173);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.box {
+    margin-top:1rem;
+    width:710px;
+    display:flex;
+    height:40px;
+    border-radius:3rem;
+
+}
+.text{
+    width:620px;
+}
+.placehloder{
+    font-weight:700;
+}
+.search{
+    
+    background-color:rgb(242,207,92);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height:40px;
+    width:40px;
+    
+
+}
+.search i{
+    color:black;
+    padding:1rem;
+}
+
+.en{
+    display:flex;
+    margin-top:2.20rem;
+    height:40px;
+    width:45px;
+
+
+}
+.en span{
+    font-weight:750;
+    margin-left:0.5rem;
+}
+.en i{
+    margin-left:0.5rem;
+}
+.hello{
+color:white;
+height:40px;
+width:150px;
+margin-top:1rem;
+margin-left:5rem;
+}
+.account {
+    
+    font-weight:700;
+}
+.info{
+    height:40px;
+    width:200px;
+}
+.acc{
+    display:flex;
+}
+.hello p{
+    font-weight:200;
+}
+.acc span{
+    font-weight:700;
+}
+.acc i{
+    margin-left:0.5rem;
+    opacity:0.7;
+}
+.returns{
+    color:white;
+    height:40px;
+    width:80px;
+    margin-top:1rem;
+    margin-left:3rem;
+
+}
+.order{
+    display:flex;
+}
+.order span{
+font-weight:700;
+}
+.ret{
+    font-weight:100;
+}
+.cart{
+    color:white;
+    height:40px;
+    width:80px;
+    margin-top:1rem;
+    margin-left:3rem;
+    display:flex;
+
+}
+.cart i{
+    font-size:38px;
+}
+.cart span{
+    font-weight:700;
+    margin-top:1rem;
+}
+.nav-second{
+    height:40px;
+    background-color:#222f3d;
+    color:white;
+    display:flex;
+    width:100%;
+    
+    
+
+}
+.bar{
+    display:flex;
+    padding:0.25rem;
+}
+.nav-second i{
+    font-size:1.5rem;
+}
+.nav-second p{
+   
+    margin-left:0.5rem;
+    margin-top:0.5rem;
+}
+.menu{
+    display:flex;
+    margin-left:1.5rem;
+    justify-self: center;
+}
+.menu p{
+    font-weight:700;
+}
+.today{
+    margin-left:1.5rem;
+    justify-self: center;
+}
+.customer{
+    margin-left:1.5rem;
+    justify-self: center;
+}
+.register{
+    margin-left:1.5rem;
+    justify-self: center;
+}
+.gift{
+    margin-left:1.5rem;
+    justify-self: center;
+}
+.sell{
+    margin-left:1.5rem;
+    justify-self: center;
+}
+.picture{
+  
+  display:flex;
+}
+.arrow{
+    display:flex;
+    justify-content:space-between;
+}
+.image{
+    background-image: url("amazon/hero_image.jpg");
+    background-size: cover;
+    
+    height:45vh;
+    width:100%;
+    
+}
+.hero-msg{
+    height:40px;
+    width:1400px;
+    background-color: white;
+    display:flex;
+    
+    margin-left:3rem;
+    margin-top:240px;
+    
+    border-radius:1px;
+    justify-content:center;
+    
+}
+.hero-msg p{
+    margin-top:13px;
+    
+ 
+    
+}
+.box:hover{
+    box-shadow:2px 2px 10px orange;
+}
+.container{
+    width:100%;
+    padding: 2rem;
+    background-color:rgb(227,227,227);
+    display:flex;
+    position:auto;
+    margin-top:1rem;
+    flex-wrap:wrap;
+
+}
+.card{
+    height:350px;
+    width:280px;
+    background-color:white;
+    
+    padding:1.25rem;
+    margin-right:3rem;
+    margin-top:1.5rem;
+    
+
+}
+.card img{
+    margin-top:1.25rem;
+    width:280px;
+    height:250px;
+    margin-right:1rem;
+    
+}
+.see a{
+   
+    color:#007185;
+    text-decoration: none;
+}
+.see{
+    margin-top:1.5rem;
+}
+.footer{
+    width:100%;
+    height:300px;
+    background-color: white;
+}
+
+.line hr{
+    opacity:0.6;
+}
+.line p{
+    text-align:center;
+    margin-top:50px;
+    font-size:0.9rem;
+}
+.button button{
+    width:300px;
+    height:40px;
+    background-color:rgb(250,183,82);
+    border-radius:5px;
+    border:1px solid rgb(245,164,42);
+    align-self: center;
+    margin-left:610px;
+    margin-top:0.5rem;
+    
+}
+.new{
+    text-decoration: none;
+    font-size:0.8rem;
+    text-align:center;
+    margin-top:0.5rem;
+}
+.new a{
+    color:#008175;
+    text-decoration:none;
+}
+.line2 hr{
+    opacity:0.7;
+}
